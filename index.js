@@ -24,3 +24,18 @@ console.log(price);
 let Name = 'Laura'
 console.log(Name)
 
+// aula 3 tipos de variavei
+
+//--Primitivas--|--Referencia--
+//string        | 
+//numero        |
+//undefined     |
+//null          |
+
+let itemName = 'Pen'
+let itemPrice = 3
+let itemAvailable = true
+let itemColor = 'Red'
+itemName = null
+
+console.log(itemColor)
