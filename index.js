@@ -54,8 +54,8 @@ let itemColor = 'Red'
     itemName: 'Pen',
     itemPrice: 3,
     itemAvailable: true,
-    itemColor: 'Red' */
-}
+    itemColor: 'Red'
+} */
 console.log(pen)
 
 //alterar propetis ou itens
