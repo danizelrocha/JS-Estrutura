@@ -86,8 +86,31 @@ saleStatus(' Apptoved' , 30) */
 
 // função  porcentagem         exemplo price = 20    price - (price - 10/ 100)  20 - (20 *10 / 100) = 20
 
-function percentage10(price) {
+/* function percentage10(price) {
     return price - (price * 10/ 100)
 }
-console.log(percentage10(40))
+console.log(percentage10(40)) */
 
+//simples
+
+/*
+let num1 = 3
+let num2 = 2
+
+console.log(num1 + num2)
+
+let num1 = 3
+let num2 = 2
+
+console.log(num1 - num2)
+
+let num1 = 3
+let num2 = 2
+
+console.log(num1 * num2) 
+*/
+
+let num1 = 3
+let num2 = 2
+
+console.log(num1 / num2)
