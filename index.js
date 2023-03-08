@@ -27,15 +27,31 @@ console.log(Name)
 // aula 3 tipos de variavei
 
 //--Primitivas--|--Referencia--
-//string        | 
-//numero        |
-//undefined     |
+//string        | Objects
+//numero        | Array
+//undefined     | Function
 //null          |
+
+// Primitivas
+/* let itemName = 'Pen'
+let itemPrice = 3
+let itemAvailable = true
+let itemColor = 'Red' */
+itemName = null
+
+console.log(itemColor)
+
+// Referenciais
 
 let itemName = 'Pen'
 let itemPrice = 3
 let itemAvailable = true
 let itemColor = 'Red'
-itemName = null
 
-console.log(itemColor)
+let pen = {
+    itemName: 'Pen',
+    itemPrice: 3,
+    itemAvailable: true,
+    itemColor: 'Red'
+}
+console.log(pen)
