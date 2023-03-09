@@ -220,7 +220,16 @@ console.log(num1 == num2)// observa se são iguai no valor */
 
 // Ternario
 
-let driver = 190
+/* let driver = 190
 let speed = driver > 110 ? 'Above': 'Below'
 
-console.log( speed ) 
+console.log( speed )  */
+
+let temIdadeMinima = true
+let temTituloEleitor = false
+
+let podevotar = temIdadeMinima && temTituloEleitor
+console.log( 'Pode Votar?: ' + podevotar)
+
+let podeviajar = !podevotar
+console.log('Pode VIajar?: ' + podeviajar)
