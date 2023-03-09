@@ -211,9 +211,16 @@ let num2 = 1
 
 console.log(num1 === num2) */
 
-
+/* 
 let num1 = '2'
 let num2 = 2
 
 console.log(num1 === num2)
-console.log(num1 == num2)// observa se são iguai no valor
+console.log(num1 == num2)// observa se são iguai no valor */
+
+// Ternario
+
+let driver = 190
+let speed = driver > 110 ? 'Above': 'Below'
+
+console.log( speed ) 
