@@ -225,11 +225,13 @@ let speed = driver > 110 ? 'Above': 'Below'
 
 console.log( speed )  */
 
-let temIdadeMinima = true
+/* let temIdadeMinima = true
 let temTituloEleitor = false
 
 let podevotar = temIdadeMinima && temTituloEleitor
 console.log( 'Pode Votar?: ' + podevotar)
 
 let podeviajar = !podevotar
-console.log('Pode VIajar?: ' + podeviajar)
+console.log('Pode VIajar?: ' + podeviajar) */
+
+
