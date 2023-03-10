@@ -234,4 +234,9 @@ console.log( 'Pode Votar?: ' + podevotar)
 let podeviajar = !podevotar
 console.log('Pode VIajar?: ' + podeviajar) */
 
+let corCliente = undefined
+let corEstoque = 'Black'
+let corVendida = corCliente || corEstoque
+
+console.log(corVendida)
 
