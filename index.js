@@ -247,7 +247,7 @@ console.log (num1)
 
 
 
-//If e Else este modulo devemos ver suas variações
+//If e Else este modulo devemos ver suas variações e aplicações
 
 
 
