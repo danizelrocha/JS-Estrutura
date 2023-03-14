@@ -244,12 +244,20 @@ console.log(corVendida) */
 console.log (num1)
  */
 
-
-
-
 //If e Else este modulo devemos ver suas variações e aplicações
 
+let driverSpeed = 120
 
+if (driverSpeed > 110) {
+    console.log ('Driving too fast too furious')
+}
+
+else if (driverSpeed > 40 && driverSpeed <= 110) {
+    console.log ('Ok cool')
+}
+
+else
+console.log(' Driving too slow like a turtle ')
 
 
 
