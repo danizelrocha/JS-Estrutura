@@ -246,7 +246,7 @@ console.log (num1)
 
 //If e Else este modulo devemos ver suas variações e aplicações
 
-let driverSpeed = 120
+/* let driverSpeed = 120
 
 if (driverSpeed > 110) {
     console.log ('Driving too fast too furious')
@@ -257,8 +257,25 @@ else if (driverSpeed > 40 && driverSpeed <= 110) {
 }
 
 else
-console.log(' Driving too slow like a turtle ')
+console.log(' Driving too slow like a turtle ') */
 
+//-----------Switch e Case
+
+let airport = 'SEA'
+
+switch (airport) {
+    case 'MCO':
+        console.log ('Orlando')
+        break
+    case 'JFK':
+        console.log ('John F. Kennedy')
+        break    
+    case 'SEA':
+        console.log ('Seattle')
+        break
+    default:
+        console.log('Unknown')    
+}
 
 
 
