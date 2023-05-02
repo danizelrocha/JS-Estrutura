@@ -278,20 +278,15 @@ switch (airport) {
 }
  */
 
+/* print( "casa", "chuva", 1988 ); */
 
 //------For Loop
 
-
-
-
+for (i = 1; i <= 10; i++){
+    console.log('Numero' , i)
+}
 	
 
-
-	
-
-
-	
-print( "casa", "chuva", 1988 );
 
 	
 
