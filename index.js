@@ -309,7 +309,7 @@ do {
 
 //------For in loop
 
-const myCar = {
+/* const myCar = {
     model: 'BMW',
     year: 2023,
     Km: 68000
@@ -317,9 +317,16 @@ const myCar = {
 
 for (let i in myCar)
     console.log(i, myCar[i])
+ */
 
 
 
+// --------For OF Loop
+
+const friends = ['Fernanda', 'Laura', 'Manuela']
+
+for (let i of friends)
+    console.log(i)
 
 
 
