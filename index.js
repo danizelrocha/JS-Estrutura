@@ -288,14 +288,23 @@ switch (airport) {
 
 
 //-------While loop variavel fora 
-
+/* 
 i=1
 
 while (i<=10){
     console.log('Numero ', i)
     i++
-}
+} */
 
+
+//------DO WHILE LOOP
+
+
+i = 1
+do {
+    console.log('Numero ', i)
+    i++
+} while (i<=10)
 
 	
 
