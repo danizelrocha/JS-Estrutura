@@ -300,13 +300,25 @@ while (i<=10){
 //------DO WHILE LOOP
 
 
-i = 1
+/* i = 1
 do {
     console.log('Numero ', i)
     i++
-} while (i<=10)
+} while (i<=10) */
 
-	
+
+//------For in loop
+
+const myCar = {
+    model: 'BMW',
+    year: 2023,
+    Km: 68000
+}
+
+for (let i in myCar)
+    console.log(i, myCar[i])
+
+
 
 
 
