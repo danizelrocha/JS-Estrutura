@@ -280,12 +280,21 @@ switch (airport) {
 
 /* print( "casa", "chuva", 1988 ); */
 
-//------For Loop
+//------For Loop variavel dentro do for loop
 
-for (i = 1; i <= 10; i++){
+/* for (i = 1; i <= 10; i++){
     console.log('Numero' , i)
+} */
+
+
+//-------While loop variavel fora 
+
+i=1
+
+while (i<=10){
+    console.log('Numero ', i)
+    i++
 }
-	
 
 
 	
