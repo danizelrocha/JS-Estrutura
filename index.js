@@ -323,13 +323,19 @@ for (let i in myCar)
 
 // --------For OF Loop
 
-const friends = ['Fernanda', 'Laura', 'Manuela']
+/*const friends = ['Fernanda', 'Laura', 'Manuela']
 
 for (let i of friends)
-    console.log(i)
+    console.log(i)*/
 
 
 
+   let i = 1
+   while( i <= 10) {
+    if( i===8 ) break
+    console.log('Numero ', i )
+    i++
+   }
 
 
 
