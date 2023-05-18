@@ -340,3 +340,25 @@ for (let i of friends)
 
 
 
+//----------------------------------------------------------------------------//
+
+
+//------------------------PARTE DOIS ORIENTAÇÃO A OBKETO----------------------//
+
+
+//-----------------------------------------------------------------------------//
+
+
+
+
+const boock = {
+    boockTitle: 'Guia Prático de Type Script',
+    boockAuthor: 'Thiago da Silva Adriano',
+    boockPages: '178',
+    boockChapters:{
+        chap1:'Introduction',
+        chap2:'Knowing the Types'
+    }
+}
+
+console.log(boock)
