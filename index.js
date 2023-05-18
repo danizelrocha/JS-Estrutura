@@ -353,7 +353,7 @@ for (let i of friends)
 
 // FACTORY OBJECT
 
-function createBook (title, author, pages) {
+/* function createBook (title, author, pages) {
     const boock = {
         bookTitle: title,
         bookAuthor: author,
@@ -370,7 +370,7 @@ const book2 = createBook('A Hipótese do Amor' , 'Ali Hazelwood' , 336 )
 
 console.log(book1)
 console.log(book2)
-
+ */
 
 
 /* boock.printBook() */
@@ -381,3 +381,26 @@ console.log(book2)
 
 
 /* console.log(boock) */
+
+
+//-----------ADICIONANDO PROPRIEDADES------------//
+
+function createBook (title, author, pages) {
+    const boock = {
+        bookTitle: title,
+        bookAuthor: author,
+        bookPages: pages,
+            printBook: function(){
+            console.log('printing...')
+        }
+    }
+    return boock
+}
+
+const book1 = createBook('Guia Prático de Type Script' , 'Thiago da Silva Adriano' , 178)
+const book2 = createBook('A Hipótese do Amor' , 'Ali Hazelwood' , 336 )
+
+book1.color = 'white and blue'
+
+console.log(book1)
+console.log(book2)
