@@ -352,13 +352,25 @@ for (let i of friends)
 
 
 const boock = {
-    boockTitle: 'Guia Prático de Type Script',
-    boockAuthor: 'Thiago da Silva Adriano',
-    boockPages: '178',
-    boockChapters:{
+    bookTitle: 'Guia Prático de Type Script',
+    bookAuthor: 'Thiago da Silva Adriano',
+    bookPages: '178',
+    bookChapters:{
         chap1:'Introduction',
         chap2:'Knowing the Types'
+    },
+    printBook: function(){
+        console.log('printing...')
     }
 }
 
-console.log(boock)
+boock.printBook()
+
+
+
+/* function printBook(){
+    console.log('printing...')
+} */
+
+
+/* console.log(boock) */
