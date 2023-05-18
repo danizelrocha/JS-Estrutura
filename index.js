@@ -351,22 +351,29 @@ for (let i of friends)
 
 
 
-const boock = {
-    bookTitle: 'Guia Prático de Type Script',
-    bookAuthor: 'Thiago da Silva Adriano',
-    bookPages: '178',
-    bookChapters:{
-        chap1:'Introduction',
-        chap2:'Knowing the Types'
-    },
-    printBook: function(){
-        console.log('printing...')
+// FACTORY OBJECT
+
+function createBook (title, author, pages) {
+    const boock = {
+        bookTitle: title,
+        bookAuthor: author,
+        bookPages: pages,
+            printBook: function(){
+            console.log('printing...')
+        }
     }
+    return boock
 }
 
-boock.printBook()
+const book1 = createBook('Guia Prático de Type Script' , 'Thiago da Silva Adriano' , 178)
+const book2 = createBook('A Hipótese do Amor' , 'Ali Hazelwood' , 336 )
+
+console.log(book1)
+console.log(book2)
 
 
+
+/* boock.printBook() */
 
 /* function printBook(){
     console.log('printing...')
