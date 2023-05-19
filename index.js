@@ -385,7 +385,7 @@ console.log(book2)
 
 //-----------ADICIONANDO PROPRIEDADES------------//
 
-function createBook (title, author, pages) {
+/* function createBook (title, author, pages) {
     const boock = {
         bookTitle: title,
         bookAuthor: author,
@@ -403,4 +403,17 @@ const book2 = createBook('A Hipótese do Amor' , 'Ali Hazelwood' , 336 )
 book1.color = 'white and blue'
 
 console.log(book1)
-console.log(book2)
+console.log(book2) */
+
+
+//------------Constructor-----------------//
+
+function CreateBook (title, author, pages) {
+    this.bookTitle = title;
+    this.bookAuthor = author;
+    this.bookPages = pages
+}
+
+const book1 = new CreateBook('Guia Prático de Type Script', 'Thiago da Silva Adriano', 178)
+
+console.log(book1)
