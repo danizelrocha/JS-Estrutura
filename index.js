@@ -423,10 +423,24 @@ console.log(book1) */
 
 // Procurar no site  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects  //
 
-console.log(Math.max(1, 25, 3, 77, 4, 9)) //maoir
+/* console.log(Math.max(1, 25, 3, 77, 4, 9)) //maoir
 
 console.log(Math.min(1, 25, 3, 77, 4, 9))  //menor
 
 console.log(Math.round(5.3))
 
-console.log(Math.PI) // valor de PI
+console.log(Math.PI) // valor de PI */
+
+
+//------------STRING---------//
+
+let message = 'Hey, my name is Daniel'
+
+console.log(message.startsWith('Hey'))
+
+console.log(message.length)
+
+console.log(message.endsWith('Daniel'))
+
+console.log(message.slice())
+
