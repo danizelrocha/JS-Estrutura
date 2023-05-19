@@ -408,7 +408,7 @@ console.log(book2) */
 
 //------------Constructor-----------------//
 
-function CreateBook (title, author, pages) {
+/* function CreateBook (title, author, pages) {
     this.bookTitle = title;
     this.bookAuthor = author;
     this.bookPages = pages
@@ -416,4 +416,17 @@ function CreateBook (title, author, pages) {
 
 const book1 = new CreateBook('Guia Prático de Type Script', 'Thiago da Silva Adriano', 178)
 
-console.log(book1)
+console.log(book1) */
+
+
+//------------Objetos Built in------------//
+
+// Procurar no site  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects  //
+
+console.log(Math.max(1, 25, 3, 77, 4, 9)) //maoir
+
+console.log(Math.min(1, 25, 3, 77, 4, 9))  //menor
+
+console.log(Math.round(5.3))
+
+console.log(Math.PI) // valor de PI
