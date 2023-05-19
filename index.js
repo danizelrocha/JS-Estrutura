@@ -434,7 +434,7 @@ console.log(Math.PI) // valor de PI */
 
 //------------STRING---------//
 
-let message = 'Hey, my name is Daniel'
+/* let message = 'Hey, my name is Daniel'
 
 console.log(message.startsWith('Hey'))
 
@@ -442,5 +442,26 @@ console.log(message.length)
 
 console.log(message.endsWith('Daniel'))
 
-console.log(message.slice())
+console.log(message.slice()) */
+
+// -----------Utilizabdo Templte literal--------//
+
+const email = 'Hi Laura,\nThe meeting is confirmed! \nManuela'
+const email1 = `Hi Laura, 
+The meeting is confirmed! 
+Manuela`
+
+
+let firstName ='Laura'
+
+const email2 = 'Hi ' + firstName + ',\nThe meeting is confirmed! \nManuela'
+const email3 = `Hi ${firstName}, 
+The meeting is confirmed! 
+Manuela`
+
+
+console.log(email)
+console.log(email1)
+console.log(email2)
+console.log(email3)
 
