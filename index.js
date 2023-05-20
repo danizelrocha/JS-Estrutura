@@ -525,7 +525,7 @@ console.log(num.includes(4)) */
 // Localizando itens em uma Arrays de referencia //
 
 
-const movies = [
+/* const movies = [
     {id: 1, movieName: 'Conan'},
     {id: 2, movieName: 'Back to the Future'},
     {id: 3, movieName: 'The Matrix'},
@@ -535,4 +535,19 @@ const movies = [
 
 console.log(movies.find(function(movie) {
     return movie.movieName == 'The Matrix'
-}))   // find só funciona como uma função veja o exemplo//
+}))   // find só funciona como uma função veja o exemplo// */
+
+
+// Arrow Function //
+
+const movies = [
+    {id: 1, movieName: 'Conan'},
+    {id: 2, movieName: 'Back to the Future'},
+    {id: 3, movieName: 'The Matrix'},
+    {id: 4, movieName: 'The Conjuring'},
+    {id: 5, movieName: 'The Super Mario Bros'}
+]
+
+console.log(movies.find(movie => 
+     movie.movieName == 'The Matrix'
+)) // usando uma arrow vc simplifica o codgo .
