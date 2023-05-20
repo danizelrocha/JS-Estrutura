@@ -498,7 +498,7 @@ console.log(friends) */
 
 // Adição a Arrays  //
 
-const num = [7, 9, 22, 13, 11, 17]
+/* const num = [7, 9, 22, 13, 11, 17]
 
 num.push(100, 200, 300) // final
 
@@ -506,4 +506,17 @@ num.unshift(1, 365, 46589) //inicio
 
 num.splice(1, 0, 2, 3, 4, 5, 6) // onde inicia, quantos quero deletar e o que vou adicionar.
 
-console.log(num)
+console.log(num) */
+
+
+// Localizando a posição de itens em uma Arrays //
+
+const num = [6, 7, 8, 9]
+
+console.log(num.indexOf(8))
+
+console.log(num.indexOf(4))
+
+console.log(num.includes(8))
+
+console.log(num.includes(4))
