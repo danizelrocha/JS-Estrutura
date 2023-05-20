@@ -511,7 +511,7 @@ console.log(num) */
 
 // Localizando a posição de itens em uma Arrays //
 
-const num = [6, 7, 8, 9]
+/* const num = [6, 7, 8, 9]
 
 console.log(num.indexOf(8))
 
@@ -519,4 +519,20 @@ console.log(num.indexOf(4))
 
 console.log(num.includes(8))
 
-console.log(num.includes(4))
+console.log(num.includes(4)) */
+
+
+// Localizando itens em uma Arrays de referencia //
+
+
+const movies = [
+    {id: 1, movieName: 'Conan'},
+    {id: 2, movieName: 'Back to the Future'},
+    {id: 3, movieName: 'The Matrix'},
+    {id: 4, movieName: 'The Conjuring'},
+    {id: 5, movieName: 'The Super Mario Bros'}
+]
+
+console.log(movies.find(function(movie) {
+    return movie.movieName == 'The Matrix'
+}))   // find só funciona como uma função veja o exemplo//
