@@ -545,9 +545,9 @@ const movies = [
     {id: 2, movieName: 'Back to the Future'},
     {id: 3, movieName: 'The Matrix'},
     {id: 4, movieName: 'The Conjuring'},
-    {id: 5, movieName: 'The Super Mario Bros'}
+    {id: 5, movieName: 'The Super Mario Bros'},
+    {id: 6, movieName: 'Tales From The Loop'}
 ]
 
-console.log(movies.find(movie => 
-     movie.movieName == 'The Matrix'
-)) // usando uma arrow vc simplifica o codgo .
+console.log(movies.find(movie =>  movie.movieName == 'The Matrix')) // usando uma arrow vc simplifica o codgo .
+    
