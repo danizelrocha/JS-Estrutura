@@ -444,9 +444,13 @@ console.log(message.endsWith('Daniel'))
 
 console.log(message.slice()) */
 
+
+
+
+
 // -----------Utilizabdo Templte literal--------//
 
-const email = 'Hi Laura,\nThe meeting is confirmed! \nManuela'
+/* const email = 'Hi Laura,\nThe meeting is confirmed! \nManuela'
 const email1 = `Hi Laura, 
 The meeting is confirmed! 
 Manuela`
@@ -463,7 +467,14 @@ Manuela`
 console.log(email)
 console.log(email1)
 console.log(email2)
-console.log(email3)
+console.log(email3) */
+
+
+
+
+
+
+
 
 
 
@@ -473,3 +484,13 @@ console.log(email3)
 //-----------------DIA 4-----------------//
 
 //--------------------------------------//
+
+
+//     Arrays      //
+
+
+let friends = ['Manu', 'Laura', 'Fernanda']
+
+friends[1] = 'Daniel'
+
+console.log(friends)
