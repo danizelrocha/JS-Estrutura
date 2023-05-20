@@ -572,13 +572,26 @@ console.log(final2) */
 
 // Esvaziando uma Array  //
 
-
+/* 
 let num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 /* num = [] */ // uma forma
 
 /* num.length = 0 // outra forma */
 
-num.splice(0, num.length)
+/* num.splice(0, num.length)
 
-console.log(num)
+console.log(num)  */
+
+
+//   Concatenando Array   //
+
+
+let numbers = [5, 6, 7, 8]
+let letters = ['a', 'b', 'c', 'd']
+
+all = numbers.concat(letters)
+half = all.slice(3, 5) // retira do ponto e a quantidade de informação.
+
+console.log(all)
+console.log(half)
