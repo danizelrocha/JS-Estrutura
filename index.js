@@ -624,13 +624,22 @@ console.log(clientsJoin) */
 
 // Verificando elementos na array - checar itens dentro de uma array com fase ou true. usando every
 
-const tempLondon =[18, 13, 8, 2]
+/* const tempLondon =[18, 13, 8, 2]
 
 const tempPositive = tempLondon.every(function(value){
     return value >= 0
 })
-
-console.log(tempPositive)
+ */
+//console.log(tempPositive)
 
 
 // Filtrando uma Array usando o filter  //
+
+
+const tempLondon =[18, -13, 8, -2, 38, -49, 1, 0, -2, 50, 89, -427, -99, 39, -1, -40]
+
+const tempPositive = tempLondon.filter(value => value >= 0)
+const tempNegative = tempLondon.filter(value => value < 0)
+
+console.log(tempPositive)
+console.log(tempNegative)
