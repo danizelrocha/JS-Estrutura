@@ -601,10 +601,22 @@ console.log(half)
 // Join Array //...
 
 
-let clients = ['Daniel', 'Laura', 'Manuela', 'Fernanda']
+/* let clients = ['Daniel', 'Laura', 'Manuela', 'Fernanda']
 
 console.log(clients)
 
 let clientsJoin = clients.join(', ') //serve para adicionar algo que queira a Array
 
-console.log(clientsJoin)
+console.log(clientsJoin) */
+
+
+
+
+//   Revertendo a Array  //
+
+//let clients = ['Daniel', 'Laura', 'Manuela', 'Fernanda']
+
+//clients.sort() // organiza em ordem alfabetica
+//clients.reverse() //organiza em ordem reversa
+
+//console.log(clients)
