@@ -620,3 +620,17 @@ console.log(clientsJoin) */
 //clients.reverse() //organiza em ordem reversa
 
 //console.log(clients)
+
+
+// Verificando elementos na array - checar itens dentro de uma array com fase ou true. usando every
+
+const tempLondon =[18, 13, 8, 2]
+
+const tempPositive = tempLondon.every(function(value){
+    return value >= 0
+})
+
+console.log(tempPositive)
+
+
+// Filtrando uma Array usando o filter  //
