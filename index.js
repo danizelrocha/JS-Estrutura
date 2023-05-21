@@ -587,7 +587,7 @@ console.log(num)  */
 //   Concatenando Array   //
 
 
-let numbers = [5, 6, 7, 8]
+/* let numbers = [5, 6, 7, 8]
 let letters = ['a', 'b', 'c', 'd']
 
 all = numbers.concat(letters)
@@ -595,3 +595,16 @@ half = all.slice(3, 5) // retira do ponto e a quantidade de informação.
 
 console.log(all)
 console.log(half)
+ */
+
+
+// Join Array //...
+
+
+let clients = ['Daniel', 'Laura', 'Manuela', 'Fernanda']
+
+console.log(clients)
+
+let clientsJoin = clients.join(', ') //serve para adicionar algo que queira a Array
+
+console.log(clientsJoin)
