@@ -643,3 +643,13 @@ const tempNegative = tempLondon.filter(value => value < 0)
 
 console.log(tempPositive)
 console.log(tempNegative)
+
+
+
+
+
+
+  //---------------------------------------//
+ //- - - - - - - - Dia 6 - - - - - - - - -//
+//---------------------------------------//
+
