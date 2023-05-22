@@ -636,13 +636,13 @@ const tempPositive = tempLondon.every(function(value){
 // Filtrando uma Array usando o filter  //
 
 
-const tempLondon =[18, -13, 8, -2, 38, -49, 1, 0, -2, 50, 89, -427, -99, 39, -1, -40]
+/* const tempLondon =[18, -13, 8, -2, 38, -49, 1, 0, -2, 50, 89, -427, -99, 39, -1, -40]
 
 const tempPositive = tempLondon.filter(value => value >= 0)
 const tempNegative = tempLondon.filter(value => value < 0)
 
 console.log(tempPositive)
-console.log(tempNegative)
+console.log(tempNegative) */
 
 
 
@@ -652,4 +652,24 @@ console.log(tempNegative)
   //---------------------------------------//
  //- - - - - - - - Dia 6 - - - - - - - - -//
 //---------------------------------------//
+    //  FUNCTION DECLARETION   //
+
+function movie () {
+    console.log('Tales From The Loop')
+}
+    movie()
+
+
+  // Function Expression  //
+  
+  const car = function() {
+    console.log('Gurgel')
+  }
+
+  car()
+
+  const truck = car
+
+  truck()
+  
 
