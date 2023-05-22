@@ -654,7 +654,7 @@ console.log(tempNegative) */
 //---------------------------------------//
     //  FUNCTION DECLARETION   //
 
-function movie () {
+/* function movie () {
     console.log('Tales From The Loop')
 }
     movie()
@@ -670,6 +670,26 @@ function movie () {
 
   const truck = car
 
-  truck()
-  
+  truck() */
 
+
+
+  //--------------Hoisting-----------//
+
+
+  //----Fuction Declaretion------//
+  movie()
+
+  function movie () {
+    console.log('Tales From The Loop')
+}
+
+  // Function Expression  //
+  
+  const car = function() {
+    console.log('Gurgel')
+  }
+
+  car()
+  const truck = car
+  truck() 
