@@ -696,7 +696,7 @@ console.log(tempNegative) */
 
 
   //-----Argumentos em fuções----//
-
+/* 
   function price() {
     let total = 0
     for (let value of arguments)
@@ -704,4 +704,27 @@ console.log(tempNegative) */
     return total
   }
 
-  console.log(price(10, 20, 30, 40))
+  console.log(price(10, 20, 30, 40)) */
+
+
+
+  //--Configurando Parametros Default---// --- sem argumento---//
+
+  function carLoan(loan, rate, years) {
+    return (loan * rate / 100 * years) + loan
+  }
+
+  console.log(carLoan(20000, 2.5, 5)) // Média internacional de juros
+  console.log(carLoan(20000, 17, 5)) // Média Brasileira de juros
+
+
+
+
+  // Aplicando Default argumentos que não mudam aplicamos o Default //  ----com argumento---//
+
+  function carLoan(loan, rate = 2.9, years = 5) {
+    return (loan * rate / 100 * years) + loan
+  }
+
+  console.log(carLoan(20000)) // Média internacional de juros
+  
